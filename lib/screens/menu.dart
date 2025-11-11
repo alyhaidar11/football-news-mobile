@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:football_news/widgets/left_drawer.dart';
 import 'package:football_news/screens/newslist_form.dart';
+import 'package:football_news/widgets/news_card.dart';
 
 
 class MyHomePage extends StatelessWidget {
@@ -64,7 +65,7 @@ class MyHomePage extends StatelessWidget {
                     mainAxisSpacing: 10,
                     crossAxisCount: 3,
                     shrinkWrap: true,
-                    children: items.map((ItemHomepage item) {
+                    children: items.map<Widget>((ItemHomepage item) {
                       return ItemCard(item);
                     }).toList(),
                   ),
