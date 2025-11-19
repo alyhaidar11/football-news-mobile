@@ -9,7 +9,7 @@ List<NewsEntry> newsEntryFromJson(String str) => List<NewsEntry>.from(json.decod
 String newsEntryToJson(List<NewsEntry> data) => json.encode(List<dynamic>.from(data.map((x) => x.toJson())));
 
 class NewsEntry {
-    String id;
+    String id; // mau testing bitrise
     String title;
     String content;
     String category;
