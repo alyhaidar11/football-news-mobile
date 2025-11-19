@@ -11,7 +11,7 @@ String newsEntryToJson(List<NewsEntry> data) => json.encode(List<dynamic>.from(d
 class NewsEntry {
     String id; // mau testing bitrise
     String title; //testing bitrise12
-    String content;
+    String content; //tetsing lagee
     String category;
     String? thumbnail;
     int newsViews;
