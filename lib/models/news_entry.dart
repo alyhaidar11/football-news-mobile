@@ -12,7 +12,7 @@ class NewsEntry {
     String id; // mau testing bitrise
     String title; //testing bitrise12
     String content; //tetsing lagee
-    String category;
+    String category; // pengen ngebuild apk
     String? thumbnail;
     int newsViews;
     DateTime createdAt;
